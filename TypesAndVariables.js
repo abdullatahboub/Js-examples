@@ -61,4 +61,66 @@ console.log(z);
 //Uncaught SyntaxError: Identifier 'z' has already been declared
 
 
+//Challenges 
+
+//CHALLENGE 1
+
+/**
+ * Declare variable "myObject2" and assign value {}
+ * Print this variable to the console.
+ * NOTE: variable "myObject2" will not be reassigned in the future
+*/
+
+const myObject2 = {};
+
+console.log(myObject2);
+
+//CHALLEGNE 2
+
+/**
+ * Declare "x" and assign value 10 to it.
+ * Declare "y" and assign value true to it.
+ * Declare "myObject3" and assign with two name-value pairs.
+ * Declare "anotherObject".
+ * Later assign value to it - object with three name-value pairs
+ * Print to the console the following:
+ * 
+ * console.log(myObject3);
+ * {a: 10, b: true, __proto__: Object}
+ * 
+ * console.log(anotherObject);
+ * {
+ * newA: 20,
+ * b: true,
+ * c: {a: 20, b: true, __proto__ :object}
+ * }
+ */
+
+var x = 10;
+
+var y = true;
+
+var myObject3 = {a, b};
+
+myObject3.a = x;
+
+myObject3.b = y;
+
+console.log(myObject3);
+
+var anotherObject = {
+    newA: x + 10, 
+    b: y, 
+    c: myObject3
+};
+
+
+console.log(anotherObject);
+
+
+
+
+
+
+
 
