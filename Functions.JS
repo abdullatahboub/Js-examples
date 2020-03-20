@@ -13,4 +13,19 @@
  }
 
  mult(3,1,3);
- 
+
+/**
+ * CHALLENGE 2
+ * 
+ * Create a function "concatenatedStrings" and it will have 2 parameters.
+ * and this function will return concatenated string.
+ */
+
+ function concatenatedStrings(x, y) {
+    return x + " " + y;
+}
+
+console.log(concatenatedStrings("Hello","World"));
+
+
+
