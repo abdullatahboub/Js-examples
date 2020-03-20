@@ -97,6 +97,20 @@ console.log(myPost);
 
  console.log(objectWithNestedObject);
 
+//Method of Object
+
+let person = {
+    firstName: "Abed",
+    lastName: "Bond",
+    fullNames: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+console.log(person.fullNames());
+
+
+
 
 
 
