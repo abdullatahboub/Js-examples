@@ -68,13 +68,22 @@ outerFunction(2,2);
 
 
 
-var i;
-for (i = 1; i < 5; i++) {
-function myFunction() {
-     console.log("Here is message number" + " " + i)    
-     }
-    }
 
-setTimeout(myFunction,2000);
+// let i = 1;
+// var myFunction = setInterval(function() {
+//    console.log("Here is message number" + " " + i)
+//    i = i + 1;  
+// },2000);
+
+
+// setTimeout(function () {clearInterval(myFunction)},10000);
+
+var i = 1;
+var koko = setInterval(function (){
+        console.log("Here is message number" + " " + i),
+        i = i + 1;},2000)
+
+
+setTimeout(function (){clearInterval(koko)},10000);
 
 
