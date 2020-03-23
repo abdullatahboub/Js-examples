@@ -1,13 +1,30 @@
 // /**
 // * TASK 1
 // * 
-// * Is it expression or statement?
+// * Is delete myObject.x expression or statement?
 // */
 const myObject = {
   x: 10,
   y: true
 };
 
-console.log(delete myObject.x); 
+console.log(delete myObject.x); //Expression
 
-delete myObject.x; 
+delete myObject.x; //Expression statement
+
+// /**
+//  * TASK 2
+//  * 
+//  * What will be logged to the console?
+//  */
+function fn() {
+  console.log("Greeting from the 'fn' function");
+
+  return function(a) {
+    console.log(a);
+  };
+}
+
+fn();
+
+(true)
