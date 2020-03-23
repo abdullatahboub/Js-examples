@@ -28,3 +28,16 @@ function fn() {
 fn();
 
 (true)
+
+// /**
+//  * TASK 3
+//  * 
+//  * Explain why semicolon is added?
+//  */
+function firstFunction(a, b) {
+  return a + b;
+} //Function declaration
+
+const secondFunction = function(a, b) {
+  return a + b;
+}; //Statement
