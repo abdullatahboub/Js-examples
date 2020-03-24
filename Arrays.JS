@@ -47,3 +47,27 @@ console.log(myArray.length); // 11
 //  * Add one more object to the Array
 //  */
 
+//Answer:
+
+var myArrayWith3Objects = [
+    {
+    carBrand:"Toyota",
+    price:20000
+    },
+
+    {
+    carBrand:"BMW",
+    price:30000
+    },
+
+    {
+    carBrand:"Mercedes",
+    price:50000
+    }
+]
+
+myArrayWith3Objects.push({carBrand:"Kia",price:10000});
+
+console.log(myArrayWith3Objects);
+
+
